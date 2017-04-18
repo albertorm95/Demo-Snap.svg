@@ -1,0 +1,21 @@
+{
+  "name": "snapsvg",
+  "description": "Small Snap.SVG demo",
+  "main": "app.js",
+  "authors": [
+    "Alberto Rojas"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "Snap.svg": "^0.5.1"
+  }
+}

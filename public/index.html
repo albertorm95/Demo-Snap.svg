@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snap.svg</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="/bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div> e-config Cloud</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10">
+			<svg id="svg" width="800" height="700" style="border-style: solid;">
+			</svg>
+			<p id="demo"></p>
+		</div>
+		<div class="col-md-2">
+			<form action="#" onsubmit="createSVG_withArgs(this);return false">
+				Width: 
+				<input type="number" name="width" value="50">
+				Height: 
+				<input type="number" name="height" value="50">
+				Fill color: 
+				<input type="color" name="fill">
+				Stroke color: 
+				<input type="color" name="stroke">
+				Stroke Width: 
+				<input type="number" name="strokeWidth" value="1">
+				Informacion: 
+				<input type="text" name="data" value="">
+				<br><br>
+				<input type="submit" value="Submit" name="">
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<input type="button" onclick="location.href='test';" value="Go to Test" />
+		<button type="button" onclick=createSVG_sampleBox()>Sample BOX</button>
+		<button type="button" onclick=importSVG_Image()>Insert Image</button>
+		<button type="button" onclick=LoadBefore()>Load Before</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/snap.js"></script>
+</body>
+</html>
