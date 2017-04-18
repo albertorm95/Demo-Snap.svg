@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": ""
+    "start": "npm install && bower install"
   },
   "repository": {
     "type": "git",
